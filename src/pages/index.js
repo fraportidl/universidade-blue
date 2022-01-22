@@ -1,6 +1,9 @@
 import React from 'react';
 
+import { Button } from '@material-ui/core';
+
 import Link from 'next/link'
+import theme from '../theme';
 
 export default function Home() {
   return (
@@ -11,6 +14,8 @@ export default function Home() {
           <a>Ir para cursos</a>
         </Link>
       </h1>
+      <Button
+        variant="outlined" color="secondary" > Botao</Button>
     </div>
   )
 }
